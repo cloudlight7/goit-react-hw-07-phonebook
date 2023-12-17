@@ -10,7 +10,6 @@ const filterSlice = createSlice({
     
       reducer: (state, action) => {
         state.filter = action.payload;
-        //state.contacts.push(action.payload);
       },
     },
   },
